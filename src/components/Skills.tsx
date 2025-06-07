@@ -2,6 +2,8 @@ import React, { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import { Dumbbell, Code2, Layers3 } from "lucide-react";
 import { Canvas, useFrame } from "@react-three/fiber";
+import * as THREE from "three";
+
 
 type Skill = {
   name: string;
